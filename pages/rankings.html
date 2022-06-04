@@ -4,53 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="../index.html"><img src="../img/Site-logo.png" alt=""></a> 
-            <ul>
-                <li><a href="brawlers.html">Brawlers</a></li>
-                <li><a href="eventos.html">Eventos</a></li>
-                <li><a href="rankings.html">Rankings</a></li>
-                <li><a href="guia.html">Guía para principiantes</a></li>
-            </ul>
+    <header class="container-fluid">
+        <nav class="row">
+            <div class="col-12 p-3 bg-info">
+                <div class="col-12 p-3 bg-info">
+                    <a href="../index.html"><img class="w-25" src="../img/Site-logo.png" alt=""></a> 
+                </div>
+                <div>
+                    <ul class="nav ">
+                        <li class="nav-item"><a class="nav-link" href="brawlers.html">Brawlers</a></li>
+                        <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="rankings.html">Rankings</a></li>
+                        <li class="nav-item"><a class="nav-link" href="guia.html">Guía para principiantes</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <main>
-        <section>
-            <h1>Rankings</h1>
-            <h2>Mejores Brawlers por mapa</h2>
-            <p>Al igual que con cualquier juego con una lista variada, los Brawlers de Brawl Stars varían en efectividad. Sin embargo, a diferencia de muchos otros juegos, Brawl Stars tiene una multitud de modos de juego que permiten que muchos Brawlers brillen en algunas áreas y fracasen en otras. Hemos reunido listas de lo que consideramos que es lo mejor en cada modo de juego y las compilamos aquí. Además, hemos hecho una lista individual para cada modo de juego con explicaciones más detalladas de nuestro razonamiento.</p>
-            <img src="../img/iconos/gemgrab.png" alt=""> <h2>Atrapagemas</h2>
-            <img src="../img/iconos/icon.png" alt=""> <h2>Atraco</h2>
-            <img src="../img/iconos/brawlball.png" alt=""> <h2>Balón Brawl</h2>
-            <img src="../img/iconos/basketbrawl.png" alt=""> <h2>Basket Brawl</h2>
-            <img src="../img/iconos/caza-estelar.png" alt=""> <h2>Caza Estelar</h2>
-            <img src="../img/iconos/destruccion.png" alt=""> <h2>Destrucción</h2>
-            <img src="../img/iconos/duelos.png" alt=""> <h2>Duelos</h2>
-            <img src="../img/iconos/noqueo.png" alt=""> <h2>Noqueo</h2>
-            <img src="../img/iconos/pelea-robotica.png" alt=""> <h2>Pelea Robótica</h2>
-            <img src="../img/iconos/botdrop.png" alt=""> <h2>Robotización</h2>
-            <img src="../img/iconos/supervivencia-solo.png" alt=""> <h2>Supervivencia (solo)</h2>
-            <img src="../img/iconos/supervivencia-duo.png" alt=""> <h2>Supervivencia (dúo)</h2>
-            <img src="../img/iconos/todos-contra-uno.png" alt=""> <h2>Todos contra uno</h2>
-            <img src="../img/iconos/zona-restringida.png" alt=""> <h2>Zona restringida</h2>
+    <aside class="container"> 
+        <div class="row" >
+            <div class="col-12 p-3 bg-secondary">publicidad</div>            
+        </div>
+    </aside>
+    <main class="container">
+        <section class="row">
+            <div class="col-8 p-3 bg-info">
+                <h1 class="fw-bolder">Rankings</h1>
+                <h3>Mejores Brawlers por mapa</h3>
+                <p>Al igual que con cualquier juego con una lista variada, los Brawlers de Brawl Stars varían en efectividad. Sin embargo, a diferencia de muchos otros juegos, Brawl Stars tiene una multitud de modos de juego que permiten que muchos Brawlers brillen en algunas áreas y fracasen en otras. Hemos reunido listas de lo que consideramos que es lo mejor en cada modo de juego y las compilamos aquí. Además, hemos hecho una lista individual para cada modo de juego con explicaciones más detalladas de nuestro razonamiento.</p>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/gemgrab.png" alt="">Atrapagemas</h4>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/icon.png" alt="">Atraco</h4>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/brawlball.png" alt="">Balón Brawl</h4>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/caza-estelar.png" alt="">Caza Estelar</h4>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/duelos.png" alt="">Duelos</h4>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/noqueo.png" alt="">Noqueo</h4>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/pelea-robotica.png" alt="">Pelea Robótica</h4>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/supervivencia-solo.png" alt="">Supervivencia (solo)</h4>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/supervivencia-duo.png" alt="">Supervivencia (dúo)</h4>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/todos-contra-uno.png" alt="">Todos contra uno</h4>
+                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/zona-restringida.png" alt="">Zona restringida</h4>
+            </div>
+            <div class="border border-dark border-4 bg-primary col-4 p-3">
+                <div class="bg-dark">
+                    <h3 class="fs-5 fw-bolder text-center p-3 text-white ">Secciones destacadas</h3>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div> 
+
+            
         </section>
     </main>
-    <aside>
-
-    </aside>
-    <footer>
-        <h5>Brawl Stars Wiki</h5> 
-        <p>© 2018 Supercell</p>
-        <p>Seguinos</p>
-        <img src="../img/facebook.png" alt="">
-        <img src="../img/twitter.png" alt="">
-        <img src="../img/youtube.png" alt="">
-        
-    </footer>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-12 p-3 bg-primary">
+                <h5 class="fs-5 fw-bolder text-center">Brawl Stars Wiki</h5> 
+                <p class="small text-center">© 2018 Supercell</p>
+                <p class="small text-center">Seguinos</p>
+                <div class="text-center">
+                    <img width="30px" src="../img/facebook.png" alt="">
+                    <img width="30px" src="../img/twitter.png" alt="">
+                    <img width="30px" src="../img/youtube.png" alt="">
+                </div> 
+            </div>
+        </div>        
+    </footer>  
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     
 </body>
 </html>
