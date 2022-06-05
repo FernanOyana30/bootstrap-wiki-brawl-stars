@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="container-fluid">
+    <header class="container">
         <nav class="row">
             <div class="col-12 p-3 bg-info">
                 <div class="col-12 p-3 bg-info">
@@ -17,10 +17,10 @@
                 </div>
                 <div>
                     <ul class="nav ">
-                        <li class="nav-item"><a class="nav-link" href="brawlers.html">Brawlers</a></li>
-                        <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="rankings.html">Rankings</a></li>
-                        <li class="nav-item"><a class="nav-link" href="guia.html">Guía para principiantes</a></li>
+                        <li class="nav-item"><a class="nav-link text-decoration-none" href="brawlers.html">Brawlers</a></li>
+                        <li class="nav-item"><a class="nav-link text-decoration-none" href="eventos.html">Eventos</a></li>
+                        <li class="nav-item"><a class="nav-link text-decoration-none" href="rankings.html">Rankings</a></li>
+                        <li class="nav-item"><a class="nav-link text-decoration-none" href="guia.html">Guía para principiantes</a></li>
                     </ul>
                 </div>
             </div>
@@ -34,24 +34,845 @@
     <main class="container">
         <section class="row">
             <div class="col-8 p-3 bg-info">
-                <h1 class="fw-bolder">Rankings</h1>
-                <h3>Mejores Brawlers por mapa</h3>
-                <p>Al igual que con cualquier juego con una lista variada, los Brawlers de Brawl Stars varían en efectividad. Sin embargo, a diferencia de muchos otros juegos, Brawl Stars tiene una multitud de modos de juego que permiten que muchos Brawlers brillen en algunas áreas y fracasen en otras. Hemos reunido listas de lo que consideramos que es lo mejor en cada modo de juego y las compilamos aquí. Además, hemos hecho una lista individual para cada modo de juego con explicaciones más detalladas de nuestro razonamiento.</p>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/gemgrab.png" alt="">Atrapagemas</h4>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/icon.png" alt="">Atraco</h4>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/brawlball.png" alt="">Balón Brawl</h4>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/caza-estelar.png" alt="">Caza Estelar</h4>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/duelos.png" alt="">Duelos</h4>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/noqueo.png" alt="">Noqueo</h4>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/pelea-robotica.png" alt="">Pelea Robótica</h4>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/supervivencia-solo.png" alt="">Supervivencia (solo)</h4>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/supervivencia-duo.png" alt="">Supervivencia (dúo)</h4>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/todos-contra-uno.png" alt="">Todos contra uno</h4>
-                <h4 class="fw-bolder"><img width="60px" src="../img/iconos/zona-restringida.png" alt="">Zona restringida</h4>
+                <div>
+                    <h1 class="fw-bolder">Rankings</h1>
+                    <h3 class="fw-bolder">Mejores Brawlers por mapa</h3>
+                    <p>Al igual que con cualquier juego con una lista variada, los Brawlers de Brawl Stars varían en efectividad. Sin embargo, a diferencia de muchos otros juegos, Brawl Stars tiene una multitud de modos de juego que permiten que muchos Brawlers brillen en algunas áreas y fracasen en otras. Hemos reunido listas de lo que consideramos que es lo mejor en cada modo de juego y las compilamos aquí. Además, hemos hecho una lista individual para cada modo de juego con explicaciones más detalladas de nuestro razonamiento.</p>
+                    <h4 class="fw-bolder">Modos de juego competitivos (se ganan y pierden trofeos)</h4>
+                    <br>
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/gemgrab.png" alt="">Atrapagemas</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/Janet.png" alt=""> Janet</td>
+                                <td>67.9</td>
+                                <td>3.42</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/Eve.png" alt=""> Eve</td>
+                                <td>64,1</td>
+                                <td>2,63</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Ash.png" alt=""> Ash</td>
+                                <td>62.9</td>
+                                <td>1.69</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Mr-P.png" alt=""> Mr. P</td>
+                                <td>60.9</td>
+                                <td>1.36</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/Sandy.png" alt="">  Sandy</td>
+                                <td>60.6</td>
+                                <td>2.28</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Colonel-Ruffs.png" alt=""> Coronel Ruffs</td>
+                                <td>60.4</td>
+                                <td>1.48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Tara.png" alt=""> Tara</td>
+                                <td>60.0</td>
+                                <td>3.97</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Rosa.png" alt=""> Rosa</td>
+                                <td>59.7</td>
+                                <td>1.82</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Griff.png" alt=""> Griff</td>
+                                <td>59.4</td>
+                                <td>1.84</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Jessie.png" alt=""> Jessie</td>
+                                <td>59.3</td>
+                                <td>2,21</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>                    
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/icon.png" alt="">Atraco</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/Nita.png" alt=""> Nita</td>
+                                <td>61.5</td>
+                                <td>3.06</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/Bull.png" alt=""> Bull</td>
+                                <td>61.2</td>
+                                <td>2.32</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Bibi.png" alt=""> Bibi</td>
+                                <td>61.0</td>
+                                <td>2.19</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Janet.png" alt=""> Janet</td>
+                                <td>60.7</td>
+                                <td>1.81</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/Eve.png" alt=""> Eve</td>
+                                <td>60.6</td>
+                                <td>2.21</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Griff.png" alt=""> Griff</td>
+                                <td>60.1</td>
+                                <td>2.17</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Tara.png" alt=""> Tara</td>
+                                <td>59.3</td>
+                                <td>2.55</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Darryl.png" alt=""> Darryl</td>
+                                <td>59.2</td>
+                                <td>2.46</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Buzz.png" alt=""> Buzz</td>
+                                <td>59.0</td>
+                                <td>1.49</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Jessie.png" alt=""> Jessie</td>
+                                <td>58.6</td>
+                                <td>4.67</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/brawlball.png" alt="">Balón Brawl</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/Janet.png" alt=""> Janet</td>
+                                <td>68.5</td>
+                                <td>2.95</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/Ash.png" alt=""> Ash</td>
+                                <td>65.1</td>
+                                <td>1.80</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Eve.png" alt=""> Eve</td>
+                                <td>64.0</td>
+                                <td>1.62</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Jacky.png" alt=""> Jacky</td>
+                                <td>62.5</td>
+                                <td>1.20</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/Sandy.png" alt=""> Sandy</td>
+                                <td>61.7</td>
+                                <td>1.73</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Griff.png" alt=""> Griff</td>
+                                <td>61.3</td>
+                                <td>2.17</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Lola.png" alt=""> Lola</td>
+                                <td>61.3</td>
+                                <td>1.31</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Rosa.png" alt=""> Rosa</td>
+                                <td>61.0</td>
+                                <td>1.18</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Nita.png" alt=""> Nita</td>
+                                <td>60.9</td>
+                                <td>1.22</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Meg.png" alt=""> Meg</td>
+                                <td>59.7</td>
+                                <td>0.84</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/caza-estelar.png" alt="">Caza Estelar</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/Janet.png" alt=""> Janet</td>
+                                <td>67.0</td>
+                                <td>2.90</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/Eve.png" alt=""> Eve</td>
+                                <td>63.9</td>
+                                <td>3.01</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Mr-P.png" alt=""> Mr. P</td>
+                                <td>60.3</td>
+                                <td>1.87</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Bo.png" alt=""> Bo</td>
+                                <td>59.7</td>
+                                <td>3.45</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/Ash.png" alt=""> Ash</td>
+                                <td>59.2</td>
+                                <td>1.03</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Grom.png" alt=""> Grom</td>
+                                <td>58.9</td>
+                                <td>2.01</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Squeak.png" alt=""> Squeak</td>
+                                <td>58.9</td>
+                                <td>1.59</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Tara.png" alt=""> Tara</td>
+                                <td>58.7</td>
+                                <td>2.43</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Rosa.png" alt=""> Rosa</td>
+                                <td>58.7</td>
+                                <td>1.41</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Colonel-Ruffs.png" alt=""> Coronel Ruffs</td>
+                                <td>58.2</td>
+                                <td>1.22</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/noqueo.png" alt="">Noqueo</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/Janet.png" alt=""> Janet</td>
+                                <td>67.2</td>
+                                <td>2.97</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/Eve.png" alt=""> Eve</td>
+                                <td>62.2</td>
+                                <td>2.88</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Grom.png" alt=""> Grom</td>
+                                <td>61.1</td>
+                                <td>1.97</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Bo.png" alt=""> Bo</td>
+                                <td>61.1</td>
+                                <td>3.15</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/8-bit.png" alt=""> 8-bit</td>
+                                <td>60.6</td>
+                                <td>1.26</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Mr-P.png" alt=""> Mr. P</td>
+                                <td>60.1</td>
+                                <td>1.67</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Ash.png" alt=""> Ash</td>
+                                <td>59.9</td>
+                                <td>0.70</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Lola.png" alt=""> Lola</td>
+                                <td>59.0</td>
+                                <td>1.30</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Griff.png" alt=""> Griff</td>
+                                <td>58.9</td>
+                                <td>1.37</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Sprout.png" alt=""> Sprout</td>
+                                <td>58.6</td>
+                                <td>2.47</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/zona-restringida.png" alt="">Zona restringida</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/Janet.png" alt=""> Janet</td>
+                                <td>66.6</td>
+                                <td>2.96</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/Eve.png" alt=""> Eve</td>
+                                <td>65.0</td>
+                                <td>2.30</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Ash.png" alt=""> Ash</td>
+                                <td>64.8</td>
+                                <td>1.43</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Frank.png" alt=""> Frank</td>
+                                <td>63.1</td>
+                                <td>1.76</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/Gale.png" alt=""> Gale</td>
+                                <td>62.2</td>
+                                <td>3.94</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Sandy.png" alt=""> Sandy</td>
+                                <td>62.0</td>
+                                <td>2.29</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Rosa.png" alt=""> Rosa</td>
+                                <td>61.6</td>
+                                <td>1.20</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Nita.png" alt=""> Nita</td>
+                                <td>61.5</td>
+                                <td>1.21</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Crow.png" alt=""> Crow</td>
+                                <td>61.5</td>
+                                <td>2.64</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Griff.png" alt=""> Griff</td>
+                                <td>60.2</td>
+                                <td>2.19</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/supervivencia-solo.png" alt="">Supervivencia (solo)</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/Janet.png" alt=""> Janet</td>
+                                <td>64.5</td>
+                                <td>5.22</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/Ash.png" alt=""> Ash</td>
+                                <td>60.4</td>
+                                <td>1.35</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Eve.png" alt=""> Eve</td>
+                                <td>59.4</td>
+                                <td>2.81</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Lola.png" alt=""> Lola</td>
+                                <td>58.4</td>
+                                <td>1.71</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/Rosa.png" alt=""> Rosa</td>
+                                <td>58.3</td>
+                                <td>0.93</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Darryl.png" alt=""> Darryl</td>
+                                <td>58.1</td>
+                                <td>1.48</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Fang.png" alt=""> Fang</td>
+                                <td>57.9</td>
+                                <td>3.39</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Bull.png" alt=""> Bull</td>
+                                <td>57.5</td>
+                                <td>1.66</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Griff.png" alt=""> Griff</td>
+                                <td>57.3</td>
+                                <td>1.92</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Jacky.png" alt=""> Jacky</td>
+                                <td>56.5</td>
+                                <td>0.80</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/supervivencia-duo.png" alt="">Supervivencia (Dúo)</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/Janet.png" alt=""> Janet</td>
+                                <td>63.7</td>
+                                <td>4.29</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/Eve.png" alt=""> Eve</td>
+                                <td>60.2</td>
+                                <td>3.14</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Ash.png" alt=""> Ash</td>
+                                <td>58.4</td>
+                                <td>1.20</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Lola.png" alt=""> Lola</td>
+                                <td>57.6</td>
+                                <td>1.75</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/Griff.png" alt=""> Griff</td>
+                                <td>57.1</td>
+                                <td>1.74</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Sandy.png" alt=""> Sandy</td>
+                                <td>56.5</td>
+                                <td>0.97</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Mr-P.png" alt=""> Mr. P</td>
+                                <td>56.3</td>
+                                <td>1.43</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Jacky.png" alt=""> Jacky</td>
+                                <td>56.2</td>
+                                <td>0.80</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Fang.png" alt=""> Fang</td>
+                                <td>56.1</td>
+                                <td>2.71</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Rosa.png" alt=""> Rosa</td>
+                                <td>56.1</td>
+                                <td>0.96</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="fw-bolder">Modos de juego no competitivos (no se ganan ni pierden trofeos)</h4>
+                    <br>
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/pelea-robotica.png" alt="">Pelea Robótica</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/8-bit.png" alt=""> 8-bit</td>
+                                <td>63.0</td>
+                                <td>14.25</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/Pam.png" alt=""> Pam</td>
+                                <td>59.3</td>
+                                <td>9.16</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Nani.png" alt=""> Nani</td>
+                                <td>58.7</td>
+                                <td>0.60</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Edgar.png" alt=""> Edgar</td>
+                                <td>58.4</td>
+                                <td>6.08</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/Jessie.png" alt=""> Jessie</td>
+                                <td>58.2</td>
+                                <td>13.22</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Colt.png" alt=""> Colt</td>
+                                <td>58.2</td>
+                                <td>6.83</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Carl.png" alt=""> Carl</td>
+                                <td>57.9</td>
+                                <td>0.42</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Gene.png" alt=""> Genio</td>
+                                <td>57.7</td>
+                                <td>0.16</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Belle.png" alt=""> Belle</td>
+                                <td>57.6</td>
+                                <td>0.52</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Fang.png" alt=""> Fang</td>
+                                <td>57.6</td>
+                                <td>1.00</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/todos-contra-uno.png" alt="">Todos contra uno</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/Colt.png" alt=""> Colt</td>
+                                <td>69.1</td>
+                                <td>12.57</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/8-bit.png" alt=""> 8-bit</td>
+                                <td>66.1</td>
+                                <td>8.83</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Pam.png" alt=""> Pam</td>
+                                <td>64.3</td>
+                                <td>4.39</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Edgar.png" alt=""> Edgar</td>
+                                <td>62.9</td>
+                                <td>14.57</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/Nita.png" alt=""> Nita</td>
+                                <td>61.4</td>
+                                <td>3.20</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Jessie.png" alt=""> Jessie</td>
+                                <td>61.0</td>
+                                <td>4.10</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Spike.png" alt=""> Spike</td>
+                                <td>59.3</td>
+                                <td>1.74</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Lola.png" alt=""> Lola</td>
+                                <td>59.1</td>
+                                <td>1.90</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Shelly.png" alt=""> Shelly</td>
+                                <td>58.7</td>
+                                <td>1.68</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Max.png" alt=""> Max</td>
+                                <td>58.5</td>
+                                <td>2.09</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                    <h4 class="fw-bolder"><img width="60px" src="../img/iconos/megabrawl.png" alt="">Megabrawl</h4>
+                    <div class="align-center p-3">
+                        <table class="table w-75">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Brawler</th>
+                                <th scope="col">% Victorias</th>
+                                <th scope="col">% Uso</th>
+                              </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                              <tr>
+                                <th scope="row">1</th>
+                                <td><img width="40px" src="../img/Avatar/png/Janet.png" alt=""> Janet</td>
+                                <td>65.7</td>
+                                <td>5.00</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td><img width="40px" src="../img/Avatar/png/Jessie.png" alt=""> Jessie</td>
+                                <td>63.6</td>
+                                <td>5.63</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td><img width="40px" src="../img/Avatar/png/Emz.png" alt=""> Emz</td>
+                                <td>62.0</td>
+                                <td>4.11</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">4</th>
+                                <td><img width="40px" src="../img/Avatar/png/Shelly.png" alt=""> Shelly</td>
+                                <td>61.9</td>
+                                <td>5.98</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">5</th>
+                                <td><img width="40px" src="../img/Avatar/png/Surge.png" alt=""> Surge</td>
+                                <td>61.7</td>
+                                <td>2.94</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">6</th>
+                                <td><img width="40px" src="../img/Avatar/png/Leon.png" alt=""> Leon</td>
+                                <td>61.5</td>
+                                <td>3.14</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">7</th>
+                                <td><img width="40px" src="../img/Avatar/png/Tara.png" alt=""> Tara</td>
+                                <td>61.4</td>
+                                <td>2.96</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">8</th>
+                                <td><img width="40px" src="../img/Avatar/png/Crow.png" alt=""> Crow</td>
+                                <td>61.3</td>
+                                <td>2.76</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">9</th>
+                                <td><img width="40px" src="../img/Avatar/png/Bea.png" alt=""> Bea</td>
+                                <td>61.1</td>
+                                <td>2.23</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">10</th>
+                                <td><img width="40px" src="../img/Avatar/png/Spike.png" alt=""> Spike</td>
+                                <td>60.0</td>
+                                <td>3.74</td>
+                              </tr>                              
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                </div>
             </div>
             <div class="border border-dark border-4 bg-primary col-4 p-3">
                 <div class="bg-dark">
-                    <h3 class="fs-5 fw-bolder text-center p-3 text-white ">Secciones destacadas</h3>
+                    <h3 class="fs-5 fw-bolder text-center p-3 text-white ">Artículos destacados</h3>
                 </div>
                 <div></div>
                 <div></div>
