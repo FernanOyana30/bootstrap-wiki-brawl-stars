@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/styles.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <header class="container">
+    <header class="container-fluid bg-info">
         <nav class="row">
-            <div class="col-12 p-3 bg-info">
-                <div class="col-12 p-3 bg-info">
+            <div class="col-12 p-3 bg-info" >
+                <div class="col-12 p-3 bg-info text-center">
                     <a href="../index.html"><img class="w-25" src="../img/Site-logo.png" alt=""></a> 
                 </div>
-                <div>
-                    <ul class="nav ">
+                <div class="container-fluid col-12 p-3 ">
+                    <ul class="nav justify-content-center">
                         <li class="nav-item"><a class="nav-link text-decoration-none" href="brawlers.html">Brawlers</a></li>
                         <li class="nav-item"><a class="nav-link text-decoration-none" href="eventos.html">Eventos</a></li>
                         <li class="nav-item"><a class="nav-link text-decoration-none" href="rankings.html">Rankings</a></li>
@@ -27,13 +28,15 @@
         </nav>
     </header>
     <aside class="container"> 
-        <div class="row" >
-            <div class="col-12 p-3 bg-secondary">publicidad</div>            
+        <div class="row">
+            <div class="col-12 p-5 mt-5 text-center ">
+                <img width="350px" src="../img/publicidad-celular.jpg" alt="">
+            </div>            
         </div>
     </aside>
     <main class="container">
         <section class="row">
-            <div class="col-8 p-3 bg-info">
+            <div class="col-8 p-3 bg-light">
                 <h1 class="fw-bold">Brawlers</h1>
                 <p>Aquí podrás obtener información sobre todos los brawlers del juego. Al día de la fecha existen 56 brawlers distintos, de los cuales 10 son obtenibles a lo largo del camino de trofeos, 34 en Cajas Brawl (pequeñas, grandes, megacajas), y 12 son exclusivos del Brawl Pass.</p>
                 <br>
@@ -120,15 +123,26 @@
                 </div>
             </div>
             <div class="col-4 p-3 border border-dark border-4 bg-primary ">
-                <div class="bg-dark">
-                    <h3 class="fs-5 fw-bolder text-center p-3 text-white ">Artículos destacados</h3>
+                <div class="text-center">
+                    <div class="bg-dark">
+                        <h3 class="fs-5 fw-bolder text-center p-3 text-white ">Artículos destacados</h3>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+                        <a href="../pages/atrapagemas.html"><img id="item-1-1" width="80px" src="../img/Gem-Grab.png" alt=""><p class="text-white fs-5">Atrapagemas</p></a>
+                    </div>
+                    <br>
+                    <div>
+                        <a href="../pages/guia.html"><img id="item-1-1" width="80px" src="../img/Brawl_Icon.png" alt=""><p class="text-white fs-5">Guía para principiantes</p></a>
+                    </div>
+                    <br>
+                    <div>
+                        <a href="../pages/guia.html"><img id="item-1-1" width="80px" src="../img/copa.png" alt=""><p class="text-white fs-5">Eventos</p></a>
+                    </div>
                 </div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
             </div> 
-            <div class="col-8 p-3 bg-info">    
+            <div class="col-8 p-3 bg-light">    
                 <h4 id="item-1" class="fw-bolder">Brawlers comunes</h4>
                 <a href="../pages/shelly.html"><img id="item-1-1" width="100px" src="../img/Avatar/png/Shelly.png" alt=""><p class="align-text-top">Shelly</p></a>
                 <img id="item-1-2" width="100px" src="../img/Avatar/png/Nita.png" alt=""><p class="align-text-top">Nita</p>
@@ -141,14 +155,14 @@
                 <img id="item-1-9" width="100px" src="../img/Avatar/png/Tick.png" alt=""><p class="align-text-top">Tick</p>
                 <img id="item-1-10" width="100px" src="../img/Avatar/png/Emz.png" alt=""><p class="align-text-top">Emz</p>
             </div> 
-            <div class="col-8 p-3 bg-primary">
+            <div class="col-8 p-3 bg-light">
                 <h4 id="item-2" class="fw-bolder">Brawlers especiales</h4>
                 <img id="item-2-1" width="100px" src="../img/Avatar/png/ElPrimo.png" alt=""><p class="align-text-top">El Primo</p>
                 <img id="item-2-2" width="100px" src="../img/Avatar/png/Barley.png" alt=""><p class="align-text-top">Barley</p>
                 <img id="item-2-3" width="100px" src="../img/Avatar/png/Poco.png" alt=""><p class="align-text-top">Poco</p>
                 <img id="item-2-4" width="100px" src="../img/Avatar/png/Rosa.png" alt=""><p class="align-text-top">Rosa</p>
             </div>           
-            <div class="col-8 p-3 bg-primary">
+            <div class="col-8 p-3 bg-light">
                 <h4 id="item-3" class="fw-bolder">Brawlers superespeciales</h4>
                 <img id="item-3-1" width="100px" src="../img/Avatar/png/Rico.png" alt=""><p class="align-text-top">Rico</p>
                 <img id="item-3-2" width="100px" src="../img/Avatar/png/Darryl.png" alt=""><p class="align-text-top">Darryl</p>
@@ -156,7 +170,7 @@
                 <img id="item-3-4" width="100px" src="../img/Avatar/png/Carl.png" alt=""><p class="align-text-top">Carl</p>
                 <img id="item-3-5" width="100px" src="../img/Avatar/png/Jacky.png" alt=""><p class="align-text-top">Jacky</p>
             </div>
-            <div class="col-8 p-3 bg-info">
+            <div class="col-8 p-3 bg-light">
                 <h4 id="item-4" class="fw-bolder">Brawlers épicos</h4>
                 <img id="item-4-1" width="100px" src="../img/Avatar/png/Piper.png" alt=""><p class="align-text-top">Piper</p>
                 <img id="item-4-2" width="100px" src="../img/Avatar/png/Pam.png" alt=""><p class="align-text-top">Pam</p>
@@ -168,7 +182,7 @@
                 <img id="item-4-8" width="100px" src="../img/Avatar/png/Griff.png" alt=""><p class="align-text-top">Griff</p>
                 <img id="item-4-9" width="100px" src="../img/Avatar/png/Grom.png" alt=""><p class="align-text-top">Grom</p>         
             </div>
-            <div class="col-8 p-3 bg-primary">
+            <div class="col-8 p-3 bg-light">
                 <h4 id="item-5" class="fw-bolder">Brawlers míticos</h4>
                 <img id="item-5-1" width="100px" src="../img/Avatar/png/Mortis.png" alt=""> <p class="align-text-top">Mortis</p>
                 <img id="item-5-2" width="100px" src="../img/Avatar/png/Tara.png" alt=""> <p class="align-text-top">Tara</p>
@@ -207,7 +221,7 @@
     </main>
     <footer class="container-fluid">
         <div class="row">
-            <div class="col-12 p-3 bg-primary">
+            <div class="col-12 p-3 bg-info">
                 <h5 class="fs-5 fw-bolder text-center">Brawl Stars Wiki</h5> 
                 <p class="small text-center">© 2018 Supercell</p>
                 <p class="small text-center">Seguinos</p>
